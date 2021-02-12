@@ -80,7 +80,6 @@ hr {
   margin: 0 0 24px;
 }
 
-
 a {
   color: RoyalBlue;
   transition: all 0.1s ease-in-out;
@@ -94,4 +93,20 @@ a:active {
 a:focus,
 a:hover {
   color: Crimson;
+}
+table {
+  width: 100%;
+  border-spacing: 0;
+}
+
+th {
+  text-align: left;
+}
+th,
+td {
+  padding: 4px 8px;
+  border-bottom: 1px solid gainsboro;
+}
+.odd {
+  background-color: whitesmoke;
 }

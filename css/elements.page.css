@@ -10,6 +10,7 @@ html {
   font-family: "Helvetica Neue", Helvetica, arial, sans-serif;
   color: #111;
   padding: 24px 24px 0;
+  scroll-behavior: smooth;
   /* top right bottom left dus shorthand voor 24px 24px 0 24px*/
 }
 body {
