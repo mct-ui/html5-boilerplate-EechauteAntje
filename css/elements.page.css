@@ -10,6 +10,7 @@ html {
   font-family: "Helvetica Neue", Helvetica, arial, sans-serif;
   color: #111;
   padding: 24px 24px 0;
+  /* top right bottom left dus shorthand voor 24px 24px 0 24px*/
 }
 body {
     max-width: 42em;
@@ -24,6 +25,8 @@ body {
  */
 
 ::-moz-selection {
+    background: #44c8f5;
+    color: white;
 }
 
 ::selection {
